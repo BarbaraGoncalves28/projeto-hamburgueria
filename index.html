@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburgueria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+    <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Nossos serviços</a>
+            <a href="">Fale conosco</a>
+        </nav>
+    </header>
+   
+           <main>
+                  <section>
+                      <img class="hamb-logo" src="img/hamb-logo.png" alt="hamb logo">
+                      <p>Hmm, está sentindo este cheirinho? Acho que tem hambúrguer na área!</p>
+                      <p>Comer hambúrguer é o melhor programa do mundo e você pode curtir da sua casa.</p>
+                      <button onclick="mostrarForm()" type="submit">ENTRE EM CONTATO</button>
+                  </section>
+                  <img class="hamb-principal" src="img/hamb.png" alt="hamb principal">
+           </main>
+   
+       <div class="caixa-video">
+           <video muted autoplay loop src="img/video.mp4"></video>
+           <div class="mascara"></div>
+       </div>
+         
+       <a href="https://www.whatsapp.com/" target="_blank" rel="external"><img class="wpp" src="img/whatsapp.png" alt="wpp"></a>
+   
+   
+       <form class="formulario">
+              <input placeholder="Seu nome" type="text" name="nome">
+              <input placeholder="Seu telefone" type="tel" name="telefone">
+              <textarea placeholder="Faça seu pedido..." name="dúvida"></textarea>
+              <button type="submit">FAÇA SEU PEDIDO!</button>
+      </form>
+       
+        <script src="script.js"></script>
+
+</body>
+</html>
